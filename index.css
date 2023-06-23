@@ -1,0 +1,48 @@
+body {
+    background-image: url("iphone-social-media.jpg");
+    background-size: cover;
+    height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container {
+    /* paleturqoise */
+    background-color: rgba(175,238,238,0.8);
+    max-width: 80%;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: auto;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 2px 2px darkslategray;
+}
+
+#increment-btn {
+    background: #FF4500;
+}
+
+#save-btn {
+    background: #355E3B;
+}
+
